@@ -18,8 +18,6 @@ grafic1 <- ggplot(funk_brasil, aes(x = data, y = interesse)) + geom_line(color =
                          caption = "Fonte: Google Trends"
   )
 
-
-
 grafic2 <- ggplot(brazilianfunk_global, aes(x = data, y = interesse)) +
   geom_line(color = "#FF5722", size = 1) +
   theme_minimal() +
